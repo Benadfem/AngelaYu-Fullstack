@@ -1,0 +1,27 @@
+/* Match the color of the images */
+h2[id="red"]{
+    color: red;
+}
+
+h2[id="orange"]{
+    color: orange;
+}
+
+h2[id="green"]{
+    color: green;
+}
+
+h2[id="yellow"]{
+    color: yellow;
+}
+
+/* change the font-weight to normal */
+h2{
+    font-weight: normal;
+}
+
+/* make a the image sizes be 200px */
+img{
+    width: 200px;
+    height: 200px;
+}
