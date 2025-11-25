@@ -1,10 +1,20 @@
 /* This page will contain all the styling for this project  */
-div{
-    text-align: center;
-    align-content: center;
-    
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
 }
 img{
-    height: 200px;
-    width: fit-content;
+  border: 5px solid white;
+  width: 100%;
+}
+body{
+    background-color: black;
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3em;
 }
