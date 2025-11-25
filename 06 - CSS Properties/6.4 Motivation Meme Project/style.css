@@ -1,0 +1,10 @@
+/* This page will contain all the styling for this project  */
+div{
+    text-align: center;
+    align-content: center;
+    
+}
+img{
+    height: 200px;
+    width: fit-content;
+}
