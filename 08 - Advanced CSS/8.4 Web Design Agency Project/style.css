@@ -1,0 +1,51 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.right{
+  /* float: right; */
+  display: inline-block;
+  background-color: red;
+}
+.left{
+  /* float: left; */
+  display: inline-block;
+  background-color: yellow;
+}
+.tile-image{
+  height: 200px;
+  width: 300px;
+  float: left;
+  
+ 
+}
+
+span{
+  color: blue;
+}
+p{
+  height: 200ox;
+  width: 300px;
+}
+div div{
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  width: 45%;
+}
