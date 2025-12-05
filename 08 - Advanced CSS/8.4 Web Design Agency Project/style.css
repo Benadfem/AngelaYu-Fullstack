@@ -18,34 +18,44 @@ footer {
   text-align: right;
   color: midnightblue;
 }
-
-.right{
-  /* float: right; */
-  display: inline-block;
-  background-color: red;
+span{
+  color: midnightblue;
 }
 .left{
-  /* float: left; */
-  display: inline-block;
-  background-color: yellow;
+  float: left;
+}
+.right{
+  float: right;
+}
+.card{
+  width: 45%;
 }
 .tile-image{
   height: 200px;
-  width: 300px;
   float: left;
-  
- 
+  margin-right: 50px;
 }
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
 
-span{
-  color: blue;
-}
-p{
-  height: 200ox;
-  width: 300px;
-}
-div div{
-  /* margin-left: 50px;
-  margin-right: 50px; */
-  width: 45%;
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
 }
