@@ -25,7 +25,6 @@
       background-color: rgb(241, 241, 241);
       padding: 20px;
 
-
     }
 
     .plan-title {
@@ -50,7 +49,24 @@
     }
 
     /* Hint: What can you do with a media query and flexbox? */
-    @media (max-width: 1250px) {}
+    @media (max-width: 1250px) {
+      .pricing-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        margin: 15%;
+      }
+
+      .pricing-plan {
+        justify-content: center;
+        background-color: rgb(241, 241, 241);
+        padding: 20px;
+        flex-basis: auto;
+
+      }
+    }
   </style>
 </head>
 
