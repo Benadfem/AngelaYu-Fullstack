@@ -13,7 +13,8 @@ let numberOfDrum = document.querySelectorAll(".drum").length;
 // putting the while condition 
 while (i <= numberOfDrum){
     document.querySelectorAll(".drum")[i].addEventListener("click", function (){
-        alert("I just got clicked!");
+        let audio = new Audio("./sounds/tom-1.mp3");
+        audio.play();
     });
     i++;
 }
