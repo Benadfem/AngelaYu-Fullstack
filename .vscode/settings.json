@@ -1,3 +1,5 @@
 {
-    "livePreview.defaultPreviewPath": "/09 - Flexbox/9.4 Flexbox Pricing Table Project/index.html"
+    "livePreview.defaultPreviewPath": "/09 - Flexbox/9.4 Flexbox Pricing Table Project/index.html",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.CustomBrowser": "chrome"
 }
