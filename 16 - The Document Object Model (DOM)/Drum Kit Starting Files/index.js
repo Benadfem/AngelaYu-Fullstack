@@ -11,13 +11,14 @@
 let i = 0;
 
 // the the DOM for the drum be given a variable 
-let drumEvent = document.querySelectorAll(".drum")
+let drumEvent = document.querySelectorAll(".drum");
 
 // putting the while condition 
 while (i < drumEvent.length){
     drumEvent[i].addEventListener("click", function (){
         let buttonInnerHTML = this.innerHTML;
       makeSound(buttonInnerHTML);
+      buttonAnimation(buttonInnerHTML);
     });
     i++;
 }
@@ -25,6 +26,7 @@ while (i < drumEvent.length){
 // keypress is deprecated. so use keydown to perform an action taken through the keyboard 
 document.addEventListener("keydown", function (event){
     makeSound(event.key);
+    buttonAnimation(event.key);
 });
 
 
@@ -67,5 +69,12 @@ function makeSound(key){
                 console.log(this.innerHTML)
         }
 }
-// let audio = new Audio("./sounds/tom-1.mp3");
-//         audio.play();
+
+function buttonAnimation(currentKey){
+    let activeButton = document.querySelector("." + currentKey);
+    activeButton.classList.add("pressed");
+
+    setTimeout(function (){
+        activeButton.classList.remove("pressed");
+    }, 100);
+}
