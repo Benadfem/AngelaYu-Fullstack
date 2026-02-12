@@ -22,7 +22,8 @@ while (i < drumEvent.length){
     i++;
 }
 // this takes the Keybaord listener
-document.addEventListener("keypress", function (){
+// keypress is deprecated. so use keydown to perform an action taken through the keyboard 
+document.addEventListener("keydown", function (event){
     makeSound(event.key);
 });
 
