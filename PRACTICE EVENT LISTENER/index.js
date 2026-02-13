@@ -41,6 +41,8 @@ for (let i = 0; i < button.length; i++){
 // function that modifies the style for the button click
 function changeFont(){
     h1.classList.add("height");
+    // this gives delay to the actions 
+    
      setTimeout(() => {
          h1.classList.remove("height");
              }, 1000);
